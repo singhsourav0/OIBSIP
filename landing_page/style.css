@@ -1,0 +1,120 @@
+/* CSS styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+header {
+    background-color: #333;
+    color: #269cb1;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #e6c90d;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+    section {
+        padding: 30px;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 90%;
+    }
+}
+
+.data h3 {
+    position: relative;
+    font-size: 1.3em;
+    color: #45f3ff;
+    line-height: 1px;
+    font-weight: 1600px;
+    margin-bottom: 30pxpx;
+    margin-left: 1.9%;
+}
+
+.data h3 a {
+    margin-left: 1.95%;
+    margin-top: 1%;
+}
+
+.container {
+    position: relative;
+}
+
+.first-image {
+    display: block;
+}
+
+.second-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
